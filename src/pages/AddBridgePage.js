@@ -28,9 +28,9 @@ import {
   FormHelperText,
   Flex,
   Icon,
-  useColorModeValue,
   Progress,
 } from '@chakra-ui/react';
+import { useColorModeValue } from '@chakra-ui/color-mode';
 import { FaMapMarkerAlt, FaCloudUploadAlt, FaInfoCircle } from 'react-icons/fa';
 import { MapContainer, TileLayer, Marker, useMapEvents } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';

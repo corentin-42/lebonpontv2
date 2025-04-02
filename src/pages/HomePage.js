@@ -8,12 +8,13 @@ import {
   Button,
   Stack,
   Icon,
-  useColorModeValue,
-  Image,
+  createIcon,
   SimpleGrid,
   Flex,
+  Image,
   Center,
 } from '@chakra-ui/react';
+import { useColorModeValue } from '@chakra-ui/color-mode';
 import { FaMapMarkedAlt, FaHome, FaUserShield } from 'react-icons/fa';
 import { useAuth } from '../context/AuthContext';
 

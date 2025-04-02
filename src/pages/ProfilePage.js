@@ -31,6 +31,7 @@ import {
   CardBody,
   IconButton,
 } from '@chakra-ui/react';
+import { useColorModeValue } from '@chakra-ui/color-mode';
 import { FaEdit, FaMapMarkerAlt, FaStar, FaComment, FaSignOutAlt } from 'react-icons/fa';
 import { useNavigate, Link as RouterLink } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';

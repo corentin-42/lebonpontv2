@@ -13,9 +13,9 @@ import {
   Select,
   Stack,
   Text,
-  useColorModeValue,
   useToast,
 } from '@chakra-ui/react';
+import { useColorModeValue } from '@chakra-ui/color-mode';
 import { SearchIcon } from '@chakra-ui/icons';
 import { FaMapMarkerAlt, FaFilter } from 'react-icons/fa';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';

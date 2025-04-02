@@ -11,14 +11,14 @@ import {
   Stack,
   Text,
   Link,
-  useColorModeValue,
+  Flex,
   Alert,
   AlertIcon,
   InputGroup,
   InputRightElement,
   IconButton,
-  Flex,
 } from '@chakra-ui/react';
+import { useColorModeValue } from '@chakra-ui/color-mode';
 import { ViewIcon, ViewOffIcon } from '@chakra-ui/icons';
 import { signIn } from '../api/supabase';
 import { useAuth } from '../context/AuthContext';

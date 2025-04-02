@@ -13,7 +13,6 @@ import {
   Popover,
   PopoverTrigger,
   PopoverContent,
-  useColorModeValue,
   useBreakpointValue,
   useDisclosure,
   Avatar,
@@ -26,6 +25,7 @@ import {
 import { HamburgerIcon, CloseIcon, ChevronDownIcon, ChevronRightIcon } from '@chakra-ui/icons';
 import { useAuth } from '../context/AuthContext';
 import { signOut } from '../api/supabase';
+import { useColorModeValue } from '@chakra-ui/color-mode';
 
 const Navbar = () => {
   const { isOpen, onToggle } = useDisclosure();

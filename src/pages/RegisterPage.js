@@ -4,23 +4,23 @@ import {
   Box,
   Button,
   Container,
+  Flex,
   FormControl,
   FormLabel,
   Heading,
   Input,
+  Link,
   Stack,
   Text,
-  Link,
-  useColorModeValue,
-  Alert,
-  AlertIcon,
   InputGroup,
   InputRightElement,
   IconButton,
   Checkbox,
-  Flex,
+  Alert,
+  AlertIcon,
   FormHelperText,
 } from '@chakra-ui/react';
+import { useColorModeValue } from '@chakra-ui/color-mode';
 import { ViewIcon, ViewOffIcon } from '@chakra-ui/icons';
 import { signUp } from '../api/supabase';
 import { useAuth } from '../context/AuthContext';
