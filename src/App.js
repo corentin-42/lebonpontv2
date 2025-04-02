@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { ChakraProvider, extendTheme } from '@chakra-ui/react';
+import { ChakraProvider } from '@chakra-ui/react';
+import { extendTheme } from '@chakra-ui/theme-utils';
 
 // Context
 import { AuthProvider } from './context/AuthContext';
