@@ -7,7 +7,6 @@ import {
   IconButton,
   Button,
   Stack,
-  Collapse,
   Icon,
   Link,
   Popover,
@@ -18,6 +17,7 @@ import {
   Avatar,
 } from '@chakra-ui/react';
 import { Menu, MenuButton, MenuList, MenuItem, MenuDivider } from '@chakra-ui/menu';
+import { Collapse } from '@chakra-ui/collapse';
 import { HamburgerIcon, CloseIcon, ChevronDownIcon, ChevronRightIcon } from '@chakra-ui/icons';
 import { useAuth } from '../context/AuthContext';
 import { signOut } from '../api/supabase';
